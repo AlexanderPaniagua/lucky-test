@@ -1,18 +1,31 @@
 {
-  "title": "OfferDetails",
-  "offerDetails": {
-    "offerId": "offer001",
-    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1125&h=750&q=80",
-    "brand": "BURGUER JOINT",
-    "favoriteCount": 125,
-    "title": "2 sandwiches + fries + Pepsi for EGP 69!",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "hasDiscount": true,
-    "currency": "EGP",
-    "price": 450,
-    "discountPrice": 300,
-    "startDate": "2022-10-21T00:00:00Z",
-    "expDate": "2022-10-21T00:00:00Z",
-    "redemptionsCap": 4
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
 }
